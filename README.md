@@ -17,13 +17,28 @@ Official repository for the six-part paper series on **Relational Phase-Space Co
 
 ---
 
+Markdown
 ## ⚙️ Core Model Architecture
 
 Spacetime geometry emerges from a capacity-bounded relational scalar field governed by the saturated kinetic Lagrangian:
 
-$$P(X) = \frac{X}{1 + \frac{\alpha X}{X_0}} - V_0 \quad \text{with } \alpha = \frac{1}{4}$$
+$$
+P(X) = \frac{X}{1 + \frac{\alpha X}{X_0}} - V_0 \quad \text{with } \alpha = \frac{1}{4}
+$$
 
-* **Dynamical Stability:** Ghost-free, strictly hyperbolic, and causal ($0 < c_s^2 \le 1$).
+* **Dynamical Stability:** Ghost-free ($\rho_{,X} > 0$), strictly hyperbolic, and causal ($0 < c_s^2 \le 1$).
+* **Effective Energy Density:**
+
+$$
+\rho_\Phi = \frac{X(2 + u)}{(1 + u)^2} + V_0 \quad \text{where } u \equiv \frac{\alpha X}{X_0}
+$$
+
+* **Rest-Frame Sound Speed:**
+
+$$
+c_s^2 = \frac{1 - 3u}{1 + u} \in (0, 1]
+$$
+
 * **Cosmological Best-Fit:** 
   * $H_0 = 73.18 \pm 0.82 \text{ km s}^{-1}\text{Mpc}^{-1}$
   * $S_8 = 0.774 \pm 0.012$

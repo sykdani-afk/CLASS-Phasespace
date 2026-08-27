@@ -1,4 +1,4 @@
-Markdown
+
 # Relational Phase-Space Cosmology (RPSC)
 
 Official repository for the six-part paper series on **Relational Phase-Space Cosmology (RPSC)**:
@@ -54,8 +54,9 @@ $$
 
 ---
 
+
 ## 📜 Citation
 
-If you use this model or code in your research, please cite:
+If you use this model, Boltzmann modifications, or numerical chains in your research, please cite:
 
-> DanSykes, *Relational Phase-Space Cosmology (RPSC): VI. Linear Perturbation Theory, Bo
+> Dan Sykes, *Relational Phase-Space Cosmology (RPSC): VI. Linear Perturbation Theory, Boltzmann System Architecture, and Joint MCMC Concordance* (2026).
